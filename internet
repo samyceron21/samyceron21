@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página con L'internet y Menú</title>
+    <style>
+        body {
+            background: linear-gradient(to right, white, #ADD8E6); /* Fondo blanco y azul */
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            position: relative;
+        }
+
+        .titulo {
+            font-family: Arial, sans-serif;
+            font-size: 50px;
+            color: #003366; /* Azul oscuro */
+            text-shadow: 2px 2px 4px white; /* Sombra blanca para el contorno */
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+
+        .boton {
+            background-color: white;
+            color: black;
+            border: 2px solid #003366; /* Borde azul oscuro */
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 25px;
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .boton:hover {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <div class="titulo">L'internet</div>
+    <a href="#" class="boton">Menú</a>
+</body>
+</html>
